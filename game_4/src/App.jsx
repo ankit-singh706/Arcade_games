@@ -19,6 +19,7 @@ function App() {
     return (
         <Canvas camera={{ position: [1, 200, 740]}}>
             <Suspense fallback={null}>
+                {/* <ambientLight intensity={1.5} /> */}
                 <group position={[0, -200, -100]}>
                     <Arcade />
                 </group>
